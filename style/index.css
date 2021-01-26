@@ -391,13 +391,6 @@ footer button {
 
 @media (max-width: 800px) {
   body {
-    background: rgb(2, 0, 36);
-    background: linear-gradient(
-      90deg,
-      rgba(2, 0, 36, 1) 0%,
-      rgba(9, 86, 121, 1) 86%,
-      rgba(15, 98, 115, 0.9248074229691877) 100%
-    );
     width: 500px;
     margin: auto;
   }
