@@ -466,13 +466,13 @@ footer button {
   }
 }
 
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
   .footer-ul {
     margin: auto;
   }
 
   .footer-ul li {
-    display: inline-block;
+    display: inline-b;
   }
 
   .footer-ul li a {
@@ -481,4 +481,4 @@ footer button {
     color: white;
     margin: 1rem;
   }
-}
+} */
