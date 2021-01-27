@@ -466,7 +466,76 @@ footer button {
   }
 }
 
-/* @media (max-width: 500px) {
+@media (max-width: 500px) {
+  body {
+    width: auto;
+    margin: auto;
+  }
+
+  h1 {
+    display: none;
+    width: 0;
+  }
+
+  header {
+    margin: 0 auto;
+  }
+
+  header nav {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+
+  .about-jade-main img {
+    border-radius: 50%;
+    height: 20rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .about-jade-text-main h2 {
+    font-size: 5rem;
+    text-align: center;
+    color: white;
+  }
+
+  .about-jade-text-main p {
+    margin-top: 2rem;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .featured-project img {
+    margin: 1rem auto;
+  }
+
+  .project-images-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 80%;
+    margin: 2rem auto;
+    /* height: 25rem; */
+    border: none;
+  }
+
+  .project-images-container .image-item {
+    display: flex;
+    flex-flow: column wrap;
+    height: auto;
+    width: auto;
+    padding: 0;
+    margin: 2rem auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .buttons-side-by-side button {
+    margin: 1 1em;
+    width: 10rem;
+  }
+
   .footer-ul {
     margin: auto;
   }
@@ -481,4 +550,13 @@ footer button {
     color: white;
     margin: 1rem;
   }
-} */
+
+  footer button {
+    width: 10rem;
+    margin: 1rem 0;
+  }
+
+  header nav button {
+    width: 6rem;
+  }
+}
